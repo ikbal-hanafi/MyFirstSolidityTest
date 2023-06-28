@@ -14,8 +14,8 @@ contract Register {
     Referral[] public referrals;
     
     constructor() {
-        github = "ganti_pake_username_github_kalian";
-        owner = “ganti_pake_address_kalian”;
+        github = "ikbal-hanafi";
+        owner = “0x6d9a20591F2472b2fdAed8235Dc5E555Dd85229A”;
     }
     
     function addReferral(address _referralAddress, string memory _referralString) external {
